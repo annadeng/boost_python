@@ -14,7 +14,7 @@ using namespace std;
 // };
 
 class address{
-private: 
+private:
 	//list<Contacts> contact_list;
 	int contact_count;
 	string fname;
@@ -69,5 +69,3 @@ BOOST_PYTHON_MODULE(libaddress)
         .def("print_count",&address::print_count)
     ;
 }
-
-
